@@ -1,10 +1,12 @@
-Made to run 24/7, this bot generates questions about Dota 2, in a way which discourages users googling questions.
+Music to Play Dota To
 
-Music is always playing. The questions/answer cards are generated, and Twitch viewers have a limited time to answer. Winners get points. Points can be spent to add new music, skip the current song, or instantly play a song.
+An automated video livestream which gave users points for difficult Dota 2 questions. Users spent points to play specific songs, or vote down songs. The favorites are played 24/7. Since Dota experts are the only users with points, the stream becomes and is called "Music to Play Dota 2".
 
-The dream was that Dota professionals would influence music that Dota players want to listen to, and it would become a go-to source for background music while playing Dota. It was a fun learning experience. A lot of people utilized all the features which made me happy! 
-But it's not worth the electricity or hardware, so I gave it up!
+Difficulty is created by generating multiple choices that are similar to the answer. This and question design discourage Google cheating. 
 
-There are a lot of dependencies that are not documented or uploaded to GitHub. (OBS overlay, images, databases) However I encourage you to examine: 
+
+After a few days, the Twitch stream gained 70 followers. People in Twitch Chat gained points for answering questions, then changed the music with their points. 
+
+The code is in minimum viable project form. And some dependencies are not uploaded to GitHub. (OBS overlay, images, databases) However I encourage you to examine: 
 	how the cards are written starting @ line 868
 	how the live chat is interpreted @ line 1742
